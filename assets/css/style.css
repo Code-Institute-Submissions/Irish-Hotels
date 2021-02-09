@@ -8,8 +8,21 @@ body{
     min-height: 100%;
 }
 
+/* --- NAVIGATION --- */
 
-/* Hero image */
+.navbar .navbar-brand {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}.nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+/* ---Hero image--- */
 
 .view.home {
     height: 100vh;
