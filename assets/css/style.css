@@ -3,16 +3,13 @@
 body{
     background-color:slategray;
     text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 
-body p{
-    text-align: center;
-    color:white;
-}
-
-/* The hero image */
+/* Hero image */
 
 .view.home {
     height: 100vh;
@@ -23,5 +20,42 @@ body p{
     position: relative;
     margin-bottom: 0;
     margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+}
+
+
+.social-links {
+    padding-bottom: auto;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: slategray;
 }
 
