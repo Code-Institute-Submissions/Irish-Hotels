@@ -9,6 +9,12 @@ body{
     padding-top: 70px;
 }
 
+h5{
+    display: inline-block;
+    right: 100px;
+    bottom: 100px;
+}
+
 /* --- About-page ---*/
 
 .container-fluid{
@@ -96,7 +102,7 @@ footer {
 div#map {
     padding-bottom: 50px;
     min-height: 500px;
-    max-width: 400px;
+    max-width: 1600px;
     position: relative;
 }
 

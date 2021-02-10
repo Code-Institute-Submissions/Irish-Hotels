@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+		type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function() {
+            emailjs.init("user_IU3Nnba467JoubpwLrWS7");
+            emailjs.send("gmail", "MS2", {
+                name: "Irish Hotels",
+                notes: "The booking Im looking for is..."
+            })
+        })();
+</script>
+
+<title>Irish Hotels</title>
+</head>
+<body>
+
+       <!-- Bootstrap nav -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="siteNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Irish Hotels</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinations.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Bootstrap nav -->
+
+
+<!-- Contact section -->
+<section id="contact" class="content-section text-center">
+        <div class="contact-section">
+            <div class="container vertical-center">
+              <h2>Contact Us</h2>
+              <p>Feel free to contact us about prices, dates or any queries you may have, by filling out the contact form or visiting our social network sites like Fackebook,Instagram,Twitter.</p>
+              <div class="form-row">
+                <div class="col-md-8 col-md-offset-2" style="margin:auto;">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="exampleInputName2">Name</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group ">
+                      <label for="exampleInputText">Your Message</label>
+                     <textarea  class="form-control" placeholder="Description"></textarea> 
+                    </div>
+                    <button type="submit" class="btn btn-default">Send Message</button>
+                    
+                  </form>
+
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      
+
+
+<!--Footer-->
+
+  <footer>
+        <div class="col-sm-12">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://twitter.com">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instagram.com">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.youtube.com">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <span class="sr-only">Youtube</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </footer>
+    <!--Footer-->
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
