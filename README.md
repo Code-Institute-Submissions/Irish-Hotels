@@ -1,45 +1,108 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Irish Hotels**
 
-Welcome mikey17,
+MS2 Project-Codeinstitute
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Project 2 Codeinstitute
 
-## Gitpod Reminders
+## **UX**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Stories
 
-`python3 -m http.server`
+#### 1. First Time User
 
-A blue button should appear to click: *Make Public*,
+- As a first time user, I want to easily find my way around the site and find what Im looking for quickly.
+- As a first time user, I want to be able to see what the site is about, and also check for hotels in Ireland.
+- As a First time user, I want to see if there are any links to the companys social media channels.
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### 2. Returning User
 
-A blue button should appear to click: *Make Public*,
+- As a returning user, I want to check on the the map of various locations in Ireland.
+- As a returning user, I want to check on hotels in the Republic of Ireland.
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Design
 
-## Updates Since The Instructional Video
+- I used the dark theme as i felt the hero image fit nicely on it.
+- The font gothic was used as i felt it mixed nicely with the headers and looked good on the nav page. 
+- The sans-serif font was used after as i felt it fit the purpose.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Strategy
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+My aim in the design was to keep the home page simplistic with a captivating image to get the users attention
+immediately.I also wanted the user to be able to naviagte the site very easily and have it as user-friendly as possible.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Scope
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+For users, I wanted to provide them with a site easy to navigate.I also wanted a map for them to see Ireland
+and check out where the best place for them to stay would be.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Structure
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+In the home page I wanted a image that would draw the attention of the user immediately. I also wanted a naviagation bar that is easily useable,
+and can get you to the rest of the site without much effort.
+In the about section I wanted to detail what the company is about and the site is about.
+In the destination section I wanted to show the user places and hotels in Ireland.
+In the footer of each page i wanted to have links to the companys social media accounts.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Surface
 
---------
+The hero image on the homescreen I felt worked well to promote the beautiful hotels,scenery we have here in Ireland.
+ The color scheme I used was a dark theme as again I felt it blended nicely with the hero image and therefore I 
+ stuck with that theme throughout.
 
-Happy coding!
+## **Technologies**
+
+ * HTML
+ * CSS
+ * BOOTSTRAP
+ * GOOGLE FONTS
+ * FONT AWESOME
+ * HOVER.CSS
+ * GITHUB
+ * BALSAMIQ
+
+## **Testing**
+
+- To test my CSS I used the [W3C validation service](https://validator.w3.org/)
+- To test my HTML I also used the [W3C validation service](https://validator.w3.org/)
+- I tested my site on a variety of different size devices to check if it was responsive.
+- Also I tested the site on different browsers to check for functionality.
+
+
+
+## **Bugs**
+
+-I wanted to have more on the destinations page,linking hotels on the maps with clusters and pins,but a lack of time and skill
+ment I could not achieve this.
+
+## **Deployment**
+
+- This project was deployed on githubpages.com, to deploy the project:
+- 1. login to github and locate repository.
+- 2. at the top of the repo click the settings button.
+- 3. locate github pages section.
+- 4. under source, click the dropdown called none and select the Master Branch.
+- 5. go back down through the page and finf the site link in github pages section.
+
+
+
+## **Credits**
+
+- Bringfido.com hero image
+- Bootstrap4.com for my nav and code throughout the project.
+- Googlefonts.com for the font I used in the site.
+- Fontawesome.com for the icons in my footer.
+- Jim Lynx for ideas I seen on some of his projects.
+
+## **Acknowledgements**
+
+- My mentor at Codeinstitute
+- All the tutors at Codeinstitute
+- My fellow students at Codeinstitute
+- Slack
+
+
+This site is for educational purposes only!
+
