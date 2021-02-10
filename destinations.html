@@ -43,26 +43,14 @@
 <!-- Bootstrap nav -->
 
 
-<!-- About section -->
-<section>
+<!-- destinations section -->
+
     
-<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-12">
-                <h1>About Us</h1>
-					<p>Here at Irish Hotels we know the strain the current (covid situation)has had on everyone.
-                     So this year why not have a staycation in the Republic of Ireland.
-                     We can give you a a getaway here on our own shores.
-                     Whether it is Munster in the south,Connacht in the west or
-                     Leinster in the east,Irish Hotels has the perfect getaway for you and the family.</p>
-                    <p>If you are interested in a holiday at home this year,
-                     why not check out our destinations page and see if you can
-                     get the break you deserve this year.</p>
-				</div>
-			</div>
-        </div>
-        
-</section>
+      <div class="col-md-6">
+      <div id="map"></div>
+      </div>
+      
+  
       
 
 
@@ -99,6 +87,20 @@
         </div>
     </footer>
     <!--Footer-->
+    <script>
+        function initMap(){
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom:3,
+                center: {
+                    lat:53.251779,
+                    lng:-7.762256
+                }
+            });
+        }
+    </script>
+     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATe5wK4xPMBP1GqwtqhhIfQgCWf2oC0W8&callback=initMap"></script>
+    
 
 
 
